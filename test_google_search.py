@@ -23,5 +23,5 @@ driver.save_screenshot("screenshot2.png")
 # Verify the results
 assert "Selenium" in driver.title
 
-# Close the browser
+# Close the browser once done
 driver.quit()
